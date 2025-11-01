@@ -6,7 +6,14 @@
     <description>Recent content in Posts on CovaWang BLOG</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
-    <lastBuildDate></lastBuildDate>
+    <lastBuildDate>Thu, 30 Oct 2025 16:11:06 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Markdown TEST</title>
+      <link>http://localhost:1313/posts/test/</link>
+      <pubDate>Thu, 30 Oct 2025 16:11:06 +0800</pubDate>
+      <guid>http://localhost:1313/posts/test/</guid>
+      <description>&lt;h2 id=&#34;1-标题测试-headings&#34;&gt;1. 标题测试 (Headings)&lt;/h2&gt;&#xA;&lt;h1 id=&#34;heading-1-最大标题&#34;&gt;Heading 1: 最大标题&lt;/h1&gt;&#xA;&lt;p&gt;这是 H1 标题下的普通段落，用于展示 Markdown 元素的渲染效果。&lt;/p&gt;&#xA;&lt;h2 id=&#34;heading-2-文章主节标题&#34;&gt;Heading 2: 文章主节标题&lt;/h2&gt;&#xA;&lt;h3 id=&#34;heading-3-小节标题&#34;&gt;Heading 3: 小节标题&lt;/h3&gt;&#xA;&lt;h4 id=&#34;heading-4-更小的标题&#34;&gt;Heading 4: 更小的标题&lt;/h4&gt;&#xA;&lt;h5 id=&#34;heading-5-最小的标题&#34;&gt;Heading 5: 最小的标题&lt;/h5&gt;&#xA;&lt;h6 id=&#34;heading-6-几乎不用的标题&#34;&gt;Heading 6: 几乎不用的标题&lt;/h6&gt;&#xA;&lt;h2 id=&#34;2-文本样式与段落&#34;&gt;2. 文本样式与段落&lt;/h2&gt;&#xA;&lt;p&gt;这是一个&lt;strong&gt;粗体&lt;/strong&gt;文本的示例。&#xA;这是一个&lt;em&gt;斜体&lt;/em&gt;文本的示例。&#xA;这是一个&lt;del&gt;删除线&lt;/del&gt;文本的示例。&#xA;您可以将它们&lt;strong&gt;组合&lt;em&gt;起来&lt;/em&gt;&lt;/strong&gt;使用。&lt;/p&gt;&#xA;&lt;p&gt;这是一个新段落。Markdown 渲染引擎应该正确地处理段落之间的空行。&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;这是一个引用块（Blockquote）的示例。它支持 &lt;strong&gt;粗体&lt;/strong&gt;、&lt;a href=&#34;https://example.com&#34;&gt;链接&lt;/a&gt; 和 &lt;em&gt;斜体&lt;/em&gt; 等 Markdown 语法。&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;来自《Rusty Typewriter 主题示例》&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;3-链接-links&#34;&gt;3. 链接 (Links)&lt;/h2&gt;&#xA;&lt;p&gt;这是一个指向 &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo 官方网站&lt;/a&gt; 的外部链接。&lt;/p&gt;&#xA;&lt;p&gt;这是一个指向本站文章列表的相对路径链接：&lt;a href=&#34;http://localhost:1313/posts/&#34;&gt;Posts 页面&lt;/a&gt;。&lt;/p&gt;&#xA;&lt;h2 id=&#34;4-列表-lists&#34;&gt;4. 列表 (Lists)&lt;/h2&gt;&#xA;&lt;h3 id=&#34;有序列表&#34;&gt;有序列表&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;第一个项目&lt;/li&gt;&#xA;&lt;li&gt;第二个项目&#xA;&lt;ol&gt;&#xA;&lt;li&gt;嵌套的子项目 A&lt;/li&gt;&#xA;&lt;li&gt;嵌套的子项目 B&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;第三个项目&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;无序列表&#34;&gt;无序列表&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;无序项目 1&lt;/li&gt;&#xA;&lt;li&gt;无序项目 2&#xA;&lt;ul&gt;&#xA;&lt;li&gt;嵌套的子项目 i&lt;/li&gt;&#xA;&lt;li&gt;嵌套的子项目 ii&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;无序项目 3&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;5-代码块-code&#34;&gt;5. 代码块 (Code)&lt;/h2&gt;&#xA;&lt;h3 id=&#34;行内代码-inline-code&#34;&gt;行内代码 (Inline Code)&lt;/h3&gt;&#xA;&lt;p&gt;行内代码看起来像这样：`inline-code-example`。它使用了不同的字体和背景色。&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
