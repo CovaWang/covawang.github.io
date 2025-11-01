@@ -1,0 +1,58 @@
+/* 
+  消除导航栏分割线 (border) 和下方的空白 (margin),
+  并使下方的问候模块 (greetings) 与之紧邻。
+*/
+header#main-header {
+  margin-bottom: 0;
+  border-bottom: none;
+}
+
+/* 
+  - 实现 "头像居左, 文本居右" 的布局。
+  - 将这个组合模块作为一个整体水平居中。
+  - 增加了 padding-top 来替代已移除的 header margin, 作为缓冲。
+*/
+.custom-greetings-container {
+  display: flex;
+  flex-direction: row; /* 子元素水平排列 */
+  align-items: center;  /* 子元素垂直居中 */
+  justify-content: flex-start; /* (可选) 如果容器宽度大于内容, 则水平居中 */
+  width: fit-content;   /* 容器宽度适应内容 */
+  /* margin: 0 auto;       /* 关键: 使 "fit-content" 宽度的容器本身水平居中 */
+  margin: 0;
+  padding-top: 0;    /* 与上方导航栏的间距 */
+  padding-bottom: 4rem; /* 与下方 "Recent Posts" 的间距 */
+}
+
+/* 头像 (左侧) */
+.custom-greetings-avatar {
+  flex-shrink: 0; /* 防止头像被压缩 */
+  margin-right: 3rem; /* 头像与文本之间的间距 */
+}
+
+/* 文本模块 (右侧) */
+.custom-greetings-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* 文本块内的内容左对齐 */
+  text-align: left;
+}
+
+/* 覆盖 h1 (greeting) 的默认边距 */
+.custom-greetings-text h1.margin-sm {
+  margin: 0 0 0.25rem 0;
+}
+
+/* 覆盖副标题 (text) 的默认边距 */
+.custom-greetings-text .dim p {
+  margin: 0;
+  padding: 0;
+}
+
+/*  "Recent Posts" 左对齐
+  通过覆盖主题模板中的 "margin: 0 auto;" 内联样式来实现。
+*/
+main#main-content > div[style*="margin:0 auto"] {
+  margin: 0 !important; /* 使用 !important 确保内联样式被覆盖 */
+  width: 90% !important; /* 将宽度调整为100%，以填充主窗格 */
+}

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>测试 on CovaWang BLOG</title>
-    <link>http://localhost:1313/tags/%E6%B5%8B%E8%AF%95/</link>
-    <description>Recent content in 测试 on CovaWang BLOG</description>
+    <title>Test on CovaWang BLOG</title>
+    <link>http://localhost:1313/tags/test/</link>
+    <description>Recent content in Test on CovaWang BLOG</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
     <lastBuildDate>Thu, 30 Oct 2025 16:11:06 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E6%B5%8B%E8%AF%95/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/test/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Markdown 元素测试页</title>
+      <title>Markdown TEST</title>
       <link>http://localhost:1313/posts/test/</link>
       <pubDate>Thu, 30 Oct 2025 16:11:06 +0800</pubDate>
       <guid>http://localhost:1313/posts/test/</guid>

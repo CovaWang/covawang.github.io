@@ -3,13 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2025-10-30T23:00:00+08:00</lastmod>
+    <lastmod>2025-11-01T13:48:46+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/fisrtthingsfirst/</loc>
+    <lastmod>2025-11-01T13:48:46+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/netflix-%E5%AE%9A%E6%97%B6%E6%96%87%E6%9C%AC%E9%A3%8E%E6%A0%BC%E6%8C%87%E5%8D%97%E9%80%9A%E7%94%A8%E8%A6%81%E6%B1%82/</loc>
+    <lastmod>2025-11-01T13:48:46+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-11-01T13:48:46+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/subtitle/</loc>
+    <lastmod>2025-11-01T13:48:46+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-11-01T13:48:46+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/translation/</loc>
+    <lastmod>2025-11-01T13:48:46+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/search/</loc>
     <lastmod>2025-10-30T23:00:00+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/fisrtthingsfirst/</loc>
-    <lastmod>2025-10-30T16:11:06+08:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/markdown/</loc>
     <lastmod>2025-10-30T16:11:06+08:00</lastmod>
@@ -17,13 +32,7 @@
     <loc>http://localhost:1313/posts/test/</loc>
     <lastmod>2025-10-30T16:11:06+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-10-30T16:11:06+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/showcase/</loc>
-    <lastmod>2025-10-30T16:11:06+08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://localhost:1313/tags/test/</loc>
     <lastmod>2025-10-30T16:11:06+08:00</lastmod>
   </url>
 </urlset>
