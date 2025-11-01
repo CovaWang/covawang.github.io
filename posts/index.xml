@@ -6,8 +6,15 @@
     <description>Recent content in Posts on CovaWang BLOG</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 01 Nov 2025 13:48:46 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 01 Nov 2025 22:34:13 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TODO_List</title>
+      <link>http://localhost:1313/posts/todo_list/</link>
+      <pubDate>Sat, 01 Nov 2025 22:34:13 +0800</pubDate>
+      <guid>http://localhost:1313/posts/todo_list/</guid>
+      <description>&lt;h2 id=&#34;关于网站&#34;&gt;关于网站&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;思考相册的实现 使得正文引用图片的同时也可以分类查阅相册 如按作品/生活etc&lt;/li&gt;&#xA;&lt;li&gt;disqus&lt;/li&gt;&#xA;&lt;li&gt;导航栏分类方式&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;关于内容&#34;&gt;关于内容&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;存活报告&lt;/li&gt;&#xA;&lt;li&gt;netflix待翻译文档&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>NETFLIX 定时文本风格指南：通用要求</title>
       <link>http://localhost:1313/posts/netflix-%E5%AE%9A%E6%97%B6%E6%96%87%E6%9C%AC%E9%A3%8E%E6%A0%BC%E6%8C%87%E5%8D%97%E9%80%9A%E7%94%A8%E8%A6%81%E6%B1%82/</link>
