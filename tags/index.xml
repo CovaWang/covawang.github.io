@@ -43,5 +43,26 @@
       <guid>http://localhost:1313/tags/test/</guid>
       <description></description>
     </item>
+    <item>
+      <title>Icymi</title>
+      <link>http://localhost:1313/tags/icymi/</link>
+      <pubDate>Sun, 01 May 2022 15:56:00 +0800</pubDate>
+      <guid>http://localhost:1313/tags/icymi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Life</title>
+      <link>http://localhost:1313/tags/life/</link>
+      <pubDate>Sun, 01 May 2022 15:56:00 +0800</pubDate>
+      <guid>http://localhost:1313/tags/life/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>School</title>
+      <link>http://localhost:1313/tags/school/</link>
+      <pubDate>Sun, 01 May 2022 15:56:00 +0800</pubDate>
+      <guid>http://localhost:1313/tags/school/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

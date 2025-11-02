@@ -37,5 +37,17 @@
   </url><url>
     <loc>http://localhost:1313/tags/test/</loc>
     <lastmod>2025-10-30T16:11:06+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/%E4%B8%80%E6%AE%B5%E8%AE%B0%E5%BF%86/</loc>
+    <lastmod>2022-05-01T15:56:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/icymi/</loc>
+    <lastmod>2022-05-01T15:56:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/life/</loc>
+    <lastmod>2022-05-01T15:56:00+08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/school/</loc>
+    <lastmod>2022-05-01T15:56:00+08:00</lastmod>
   </url>
 </urlset>

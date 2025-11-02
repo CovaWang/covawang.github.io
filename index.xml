@@ -36,5 +36,12 @@
       <guid>http://localhost:1313/posts/test/</guid>
       <description>&lt;h2 id=&#34;1-标题测试-headings&#34;&gt;1. 标题测试 (Headings)&lt;/h2&gt;&#xA;&lt;h1 id=&#34;heading-1-最大标题&#34;&gt;Heading 1: 最大标题&lt;/h1&gt;&#xA;&lt;p&gt;这是 H1 标题下的普通段落，用于展示 Markdown 元素的渲染效果。&lt;/p&gt;&#xA;&lt;h2 id=&#34;heading-2-文章主节标题&#34;&gt;Heading 2: 文章主节标题&lt;/h2&gt;&#xA;&lt;h3 id=&#34;heading-3-小节标题&#34;&gt;Heading 3: 小节标题&lt;/h3&gt;&#xA;&lt;h4 id=&#34;heading-4-更小的标题&#34;&gt;Heading 4: 更小的标题&lt;/h4&gt;&#xA;&lt;h5 id=&#34;heading-5-最小的标题&#34;&gt;Heading 5: 最小的标题&lt;/h5&gt;&#xA;&lt;h6 id=&#34;heading-6-几乎不用的标题&#34;&gt;Heading 6: 几乎不用的标题&lt;/h6&gt;&#xA;&lt;h2 id=&#34;2-文本样式与段落&#34;&gt;2. 文本样式与段落&lt;/h2&gt;&#xA;&lt;p&gt;这是一个&lt;strong&gt;粗体&lt;/strong&gt;文本的示例。&#xA;这是一个&lt;em&gt;斜体&lt;/em&gt;文本的示例。&#xA;这是一个&lt;del&gt;删除线&lt;/del&gt;文本的示例。&#xA;您可以将它们&lt;strong&gt;组合&lt;em&gt;起来&lt;/em&gt;&lt;/strong&gt;使用。&lt;/p&gt;</description>
     </item>
+    <item>
+      <title>《三个试图反抗的（）学生下场》——一段记忆</title>
+      <link>http://localhost:1313/posts/%E4%B8%80%E6%AE%B5%E8%AE%B0%E5%BF%86/</link>
+      <pubDate>Sun, 01 May 2022 15:56:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/%E4%B8%80%E6%AE%B5%E8%AE%B0%E5%BF%86/</guid>
+      <description>&lt;p&gt;转载自微信公众号“云里雾里”，偶然翻到。&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/fd4cd6861a3c40ac8cfc66c7518ee972.jpg&#34; alt=&#34;三个试图反抗的南开学生下场&#34;&gt;&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
