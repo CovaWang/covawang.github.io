@@ -6,21 +6,28 @@
     <description>Recent content in Posts on CovaWang BLOG</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 03 Nov 2025 20:47:16 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 06 Nov 2025 00:15:13 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>如何理解爱</title>
+      <link>http://localhost:1313/posts/how-to-interpret-love/</link>
+      <pubDate>Thu, 06 Nov 2025 00:15:13 +0800</pubDate>
+      <guid>http://localhost:1313/posts/how-to-interpret-love/</guid>
+      <description>&lt;p&gt;昨天写算术时听了&lt;a href=&#34;https://www.xiaoyuzhoufm.com/episode/654036a7beaefe6ab327e518&#34;&gt;Vol.202 窄门：永恒的爱情真的存在吗？-文化有限&lt;/a&gt;，播客内容并不具有novelty，但由于某位主播评价为“这本书三个人读能出来四种看法”而对这本向多位朋友诋毁过的书有了改观，以至于一时兴起和身边唯一一位拥护这部作品的友人约了研讨电话。通话过程中对原作品本身讨论的含量可以说是极低，但后半程时我自大地飘忽出口了句“我现在到达了一个对爱的理解趋于稳定的阶段，但对情欲还很陌生”。友人追问“怎么理解爱”，我偷了个懒说“是稳定了又不是能被简短概括了”。通话结束后，我的糊弄鬼回复有如被挂起的进程一般，虽然没恢复但也没死亡，心虚的存在感过重以至于我必须把现在能想到的记下来，谨防自我篡改和翻供。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>SNL-related recording</title>
       <link>http://localhost:1313/posts/snl-related-recording/</link>
       <pubDate>Mon, 03 Nov 2025 20:47:16 +0800</pubDate>
       <guid>http://localhost:1313/posts/snl-related-recording/</guid>
-      <description>&lt;p&gt;只是把新一期看了的两集文字贴过来了 会补档之前发过的内容文字及图片并每周更新的……&lt;/p&gt;&#xA;&lt;h2 id=&#34;s51e04&#34;&gt;S51E04&lt;/h2&gt;&#xA;&lt;p&gt;colinjost小表情太灵了 萌萌壮男 他看起来既擅长reaction别的内容 也因此又必须需要吃观众reaction才能继续下去 主持白宫段子才吃亏吧&#xA;目前比较好奇colin在编剧里是啥地位&lt;/p&gt;</description>
+      <description>&lt;p&gt;只是把新几期看了的文字贴过来了 会补档之前发过的内容文字及图片并每周更新的……&lt;/p&gt;&#xA;&lt;h2 id=&#34;s51e04&#34;&gt;S51E04&lt;/h2&gt;&#xA;&lt;p&gt;colinjost小表情太灵了 萌萌壮男 他看起来既擅长reaction别的内容 也因此又必须需要吃观众reaction才能继续下去 主持白宫段子才吃亏吧 目前比较好奇colin在编剧里是啥地位&lt;/p&gt;</description>
     </item>
     <item>
       <title>TODO_List</title>
       <link>http://localhost:1313/posts/todo_list/</link>
       <pubDate>Sat, 01 Nov 2025 22:34:13 +0800</pubDate>
       <guid>http://localhost:1313/posts/todo_list/</guid>
-      <description>&lt;p&gt;关于网站项目 关于内容&lt;/p&gt;&#xA;&lt;h2 id=&#34;关于网站&#34;&gt;关于网站&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;首页显示每个帖子的大纲&lt;/li&gt;&#xA;&lt;li&gt;思考相册的陈列实现 使得正文引用图片的同时也可以分类查阅相册 如按作品/生活etc&lt;/li&gt;&#xA;&lt;li&gt;disqus/waline?（不是很想再碰数据库啊……）（也不是很喜欢简中工具）&lt;/li&gt;&#xA;&lt;li&gt;增加浏览量（似乎有的接口是和评论系统结合在一起的）&lt;/li&gt;&#xA;&lt;li&gt;移动端的容器位置重构&lt;/li&gt;&#xA;&lt;li&gt;搜索时能否定位并高亮关键词&lt;/li&gt;&#xA;&lt;li&gt;去掉tag的日期 总体改善tag界面&lt;/li&gt;&#xA;&lt;li&gt;修改404和搜索无结果的页面&lt;/li&gt;&#xA;&lt;li&gt;侧边栏，给字数和阅读时长换样式，所在块的目录条目区分出样式&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;关于内容&#34;&gt;关于内容&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;导航栏分类方式&lt;/li&gt;&#xA;&lt;li&gt;存活报告&lt;/li&gt;&#xA;&lt;li&gt;netflix待翻译文档&lt;/li&gt;&#xA;&lt;li&gt;工作流&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <description>&lt;p&gt;关于网站项目 关于内容&lt;/p&gt;&#xA;&lt;h2 id=&#34;关于网站&#34;&gt;关于网站&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;首页显示每个帖子的大纲&lt;/li&gt;&#xA;&lt;li&gt;思考相册的陈列实现 使得正文引用图片的同时也可以分类查阅相册 如按作品/生活etc&lt;/li&gt;&#xA;&lt;li&gt;disqus/waline?（不是很想再碰数据库啊……）（也不是很喜欢简中工具）&lt;/li&gt;&#xA;&lt;li&gt;增加浏览量（似乎有的接口是和评论系统结合在一起的）&lt;/li&gt;&#xA;&lt;li&gt;移动端的容器位置重构&lt;/li&gt;&#xA;&lt;li&gt;搜索时能否定位并高亮关键词&lt;/li&gt;&#xA;&lt;li&gt;去掉tag的日期 总体改善tag界面&lt;/li&gt;&#xA;&lt;li&gt;修改404和搜索无结果的页面&lt;/li&gt;&#xA;&lt;li&gt;侧边栏，给字数和阅读时长换样式，所在块的目录条目区分出样式&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;关于内容&#34;&gt;关于内容&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;导航栏分类方式&lt;/li&gt;&#xA;&lt;li&gt;存活报告&lt;/li&gt;&#xA;&lt;li&gt;netflix待翻译文档&lt;/li&gt;&#xA;&lt;li&gt;工作流优化 obsidian自动化部署 图床的确定 是否适用iCloud达到多端协同&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>NETFLIX 定时文本风格指南：通用要求</title>
