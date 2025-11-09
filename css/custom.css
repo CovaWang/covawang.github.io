@@ -78,12 +78,32 @@ section.page-section p {
 /* 正文行间距和段间距 */
 /* 全局行间距 (Line Height) */
 section.page-section {
-  line-height: 2; /* 默认 1.5 */
+  line-height: 1.8; /* 默认 1.5 */
 }
 /* 段间距 */
 section.page-section p {
-  margin-bottom: 1rem; /* 增加段落底部的外边距 */
+  margin-bottom: 0.2rem; /* 增加段落底部的外边距 */
   
   /* 由于覆盖上面的 "text-indent" 规则，重新声明它。 */
-  text-indent: 2em;
+  text-indent: 1.5em;
+}
+
+/*
+ 'SNL' 图片样式 
+*/
+
+/* 选择器找到文章内容 (main#main-content) 中
+  所有 'src' 属性包含 文件夹路径 字符串的图片 (img)
+*/
+main#main-content img[src*="/images/SNL-related/"] {
+  max-width: 60%; /* 图片宽度占容器百分比。*/
+  display: block; margin: 0 auto; /* 居中 */
+  /* 间距  */
+  padding: 5px;
+  /* background-color: #fff;  */
+  /* 主题默认有 0.5rem 的圆角 重置 */
+  border-radius: 0.1;
+
+  /* 确保 padding 和 border 被计算在 max-width 之内 */
+  box-sizing: border-box;
 }
