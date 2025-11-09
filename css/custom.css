@@ -1,3 +1,15 @@
+:root {
+  /*
+    我们将 "FangSong" (仿宋) 添加到字体列表的最前面。
+    浏览器在渲染中文时会优先使用它，
+    而在渲染英文时，由于 仿宋 字体不包含英文字符，
+    浏览器会自动回退 (fallback) 到 "Bricolage Grotesque"。
+  */
+  --font-family-main: "FangSong", "Bricolage Grotesque", sans-serif;
+  --font-family-content: "FangSong", "Bricolage Grotesque", serif;
+  --font-family-summary: "FangSong", "Bricolage Grotesque", serif;
+}
+
 /* 
   消除导航栏分割线 (border) 和下方的空白 (margin),
   并使下方的问候模块 (greetings) 与之紧邻。
@@ -55,4 +67,23 @@ header#main-header {
 main#main-content > div[style*="margin:0 auto"] {
   margin: 0 !important; /* 使用 !important 确保内联样式被覆盖 */
   width: 90% !important; /* 将宽度调整为100%，以填充主窗格 */
+}
+
+/* <p>中段落首行缩进 */
+section.page-section p {
+  text-indent: 2em; /* '2em' 2个中文字符 */
+}
+
+
+/* 正文行间距和段间距 */
+/* 全局行间距 (Line Height) */
+section.page-section {
+  line-height: 2; /* 默认 1.5 */
+}
+/* 段间距 */
+section.page-section p {
+  margin-bottom: 1rem; /* 增加段落底部的外边距 */
+  
+  /* 由于覆盖上面的 "text-indent" 规则，重新声明它。 */
+  text-indent: 2em;
 }
