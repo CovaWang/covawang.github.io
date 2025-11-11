@@ -6,8 +6,15 @@
     <description>Recent content in Posts on CovaWang BLOG</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 06 Nov 2025 00:15:13 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 11 Nov 2025 13:17:25 +0800</lastBuildDate>
     <atom:link href="https://covawang.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>孝女的乞讨</title>
+      <link>https://covawang.github.io/posts/all-filial-piety-no-money/</link>
+      <pubDate>Tue, 11 Nov 2025 13:17:25 +0800</pubDate>
+      <guid>https://covawang.github.io/posts/all-filial-piety-no-money/</guid>
+      <description>&lt;p&gt;上班还是乞讨？这是一个问题。&lt;/p&gt;&#xA;&lt;p&gt;上周六高强度做了两家聚餐的孝女，本来没看上艾夫曼就烦（这个跟孝女无关，纯自己偷懒了），左支右绌的嘴架还蔓延到了周一早上。跟友人讲电话的结论是，即使有条理地记录并自以为有解决方案，也没法真的实际缓解，相同的情绪会在下一次原封不动地回来。但还是，为了这个《少女的祈祷》对仗的天才标题记录一下吧。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>如何理解爱</title>
       <link>https://covawang.github.io/posts/how-to-interpret-love/</link>
@@ -27,7 +34,7 @@
       <link>https://covawang.github.io/posts/todo_list/</link>
       <pubDate>Sat, 01 Nov 2025 22:34:13 +0800</pubDate>
       <guid>https://covawang.github.io/posts/todo_list/</guid>
-      <description>&lt;p&gt;关于网站项目 关于内容&lt;/p&gt;&#xA;&lt;h2 id=&#34;关于网站&#34;&gt;关于网站&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;中文文本的段落首行缩进及段间距&lt;/li&gt;&#xA;&lt;li&gt;首页显示每个帖子的大纲&lt;/li&gt;&#xA;&lt;li&gt;思考相册的陈列实现 使得正文引用图片的同时也可以分类查阅相册 如按作品/生活etc&lt;/li&gt;&#xA;&lt;li&gt;disqus/waline?（不是很想再碰数据库啊……）（也不是很喜欢简中工具）&lt;/li&gt;&#xA;&lt;li&gt;增加浏览量（似乎有的接口是和评论系统结合在一起的）&lt;/li&gt;&#xA;&lt;li&gt;移动端的容器位置重构&lt;/li&gt;&#xA;&lt;li&gt;搜索时能否定位并高亮关键词&lt;/li&gt;&#xA;&lt;li&gt;去掉tag的日期 总体改善tag界面&lt;/li&gt;&#xA;&lt;li&gt;修改404和搜索无结果的页面&lt;/li&gt;&#xA;&lt;li&gt;侧边栏，给字数和阅读时长换样式，所在块的目录条目区分出样式&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;关于内容&#34;&gt;关于内容&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;导航栏分类方式&lt;/li&gt;&#xA;&lt;li&gt;存活报告&lt;/li&gt;&#xA;&lt;li&gt;netflix待翻译文档&lt;/li&gt;&#xA;&lt;li&gt;工作流优化 obsidian自动化部署 图床的确定 是否适用iCloud达到多端协同&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <description>&lt;p&gt;关于网站项目 关于内容&lt;/p&gt;&#xA;&lt;h2 id=&#34;关于网站&#34;&gt;关于网站&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;del&gt;中文文本的段落首行缩进及段间距&lt;/del&gt;&lt;/li&gt;&#xA;&lt;li&gt;思考相册的陈列实现 使得正文引用图片的同时也可以分类查阅相册 如按作品/生活etc&lt;/li&gt;&#xA;&lt;li&gt;disqus/waline?（不是很想再碰数据库啊……）（也不是很喜欢简中工具）&lt;/li&gt;&#xA;&lt;li&gt;增加浏览量（似乎有的接口是和评论系统结合在一起的）&lt;/li&gt;&#xA;&lt;li&gt;首页显示每个帖子的大纲&lt;/li&gt;&#xA;&lt;li&gt;帖子编辑历史&lt;/li&gt;&#xA;&lt;li&gt;移动端的容器位置重构&lt;/li&gt;&#xA;&lt;li&gt;搜索时能否定位并高亮关键词&lt;/li&gt;&#xA;&lt;li&gt;去掉tag的日期 总体改善tag界面&lt;/li&gt;&#xA;&lt;li&gt;修改404和搜索无结果的页面&lt;/li&gt;&#xA;&lt;li&gt;侧边栏，给字数和阅读时长换样式&#xA;&lt;ul&gt;&#xA;&lt;li&gt;所在块的目录条目区分出样式&lt;/li&gt;&#xA;&lt;li&gt;实现目录行滚动&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;关于内容&#34;&gt;关于内容&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;导航栏分类方式&lt;/li&gt;&#xA;&lt;li&gt;存活报告&lt;/li&gt;&#xA;&lt;li&gt;netflix待翻译文档&lt;/li&gt;&#xA;&lt;li&gt;工作流优化 obsidian自动化部署 图床的确定 是否适用iCloud达到多端协同&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>NETFLIX 定时文本风格指南：通用要求</title>
