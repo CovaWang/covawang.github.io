@@ -23,7 +23,7 @@ Heading 2: 文章主节标题 Heading 3: 小节标题 Heading 4: 更小的标题
   <meta name="twitter:description" content="1. 标题测试 (Headings) Heading 1: 最大标题 这是 H1 标题下的普通段落，用于展示 Markdown 元素的渲染效果。
 Heading 2: 文章主节标题 Heading 3: 小节标题 Heading 4: 更小的标题 Heading 5: 最小的标题 Heading 6: 几乎不用的标题 2. 文本样式与段落 这是一个粗体文本的示例。 这是一个斜体文本的示例。 这是一个删除线文本的示例。 您可以将它们组合起来使用。">
 
-      <link rel="stylesheet" href="/css/custom.min.41b1a57d03505a07112fe13e7509693aed73a8999a3743b7e79d69527df1784b.css" integrity="sha256-QbGlfQNQWgcRL&#43;E&#43;dQlpOu1zqJmaN0O3551pUn3xeEs=" crossorigin="anonymous">
+      <link rel="stylesheet" href="/css/custom.min.5375ff72c758eba0aa9ab84af82d5653edc88e843e564abd3694542b9c790eea.css" integrity="sha256-U3X/csdY66CqmrhK&#43;C1WU&#43;3IjoQ&#43;Vkq9NpRUK5x5Duo=" crossorigin="anonymous">
       <link rel="stylesheet" href="/css/root.min.0e732b812b9751962e01a7c4798a1211cd5f8ac8abec7f99793fe306989e459f.css" integrity="sha256-DnMrgSuXUZYuAafEeYoSEc1fisir7H&#43;ZeT/jBpieRZ8=" crossorigin="anonymous">
       <link rel="stylesheet" href="/css/bundle.min.d95a325399a05b50fe47dcf35b8229b8a2a014fcee5435cfb28204c6ac335fc5.css" integrity="sha256-2VoyU5mgW1D&#43;R9zzW4IpuKKgFPzuVDXPsoIExqwzX8U=" crossorigin="anonymous">
 
@@ -202,7 +202,48 @@ languageCode = &lsquo;zh-CN&rsquo;
 <li>将附件文件（例如 PDF、ZIP 文件）也放入 <code>markdown-test</code> 文件夹中。</li>
 </ol>
 <p><code>Rusty Typewriter</code> 主题的单页侧边栏（<code>layouts/partials/side/single.html</code>）有一个逻辑，可以列出 Page Bundle 中的文件资源作为附件（Attachments）。它们会显示在 <strong>Attachments</strong> (附件) 标题下。</p>
-</section></main>
+</section>
+
+  <link rel="stylesheet" href="https://unpkg.com/@waline/client@v3/dist/waline.css" />
+  
+  <style>
+     
+    #waline { margin-top: 3rem; }
+    
+     
+    .wl-meta > span { display: none !important; }
+    
+     
+    .wl-badge { display: none !important; }
+    
+     
+    .wl-panel { border-radius: 8px !important; }
+    
+     
+    .wl-like { margin-right: 1em; }
+  </style>
+
+  <div id="waline"></div>
+
+  <script type="module">
+    import { init } from 'https://unpkg.com/@waline/client@v3/dist/waline.js';
+
+    init({
+      el: '#waline',
+      serverURL: 'https:\/\/covawang-githubpages-waline.vercel.app\/',
+      lang: 'zh-CN',
+      pageview: true, 
+      search: false,  
+      
+      
+      meta: ['nick', 'mail'],
+      
+      
+      emoji: [
+        'https://unpkg.com/@waline/emojis@1.1.0/tw-emoji'
+      ],
+    });
+  </script></main>
         <footer id="main-footer"><div class="footer">
   <a href="#">Scroll to Top</a>
   <div class="footer-copyright">

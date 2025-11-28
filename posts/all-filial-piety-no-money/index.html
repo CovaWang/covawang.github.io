@@ -22,7 +22,7 @@
   <meta name="twitter:description" content="上班还是乞讨？这是一个问题。
 上周六高强度做了两家聚餐的孝女，本来没看上艾夫曼就烦（这个跟孝女无关，纯自己偷懒了），左支右绌的嘴架还蔓延到了周一早上。跟友人讲电话的结论是，即使有条理地记录并自以为有解决方案，也没法真的实际缓解，相同的情绪会在下一次原封不动地回来。但还是，为了这个《少女的祈祷》对仗的天才标题记录一下吧。">
 
-      <link rel="stylesheet" href="/css/custom.min.41b1a57d03505a07112fe13e7509693aed73a8999a3743b7e79d69527df1784b.css" integrity="sha256-QbGlfQNQWgcRL&#43;E&#43;dQlpOu1zqJmaN0O3551pUn3xeEs=" crossorigin="anonymous">
+      <link rel="stylesheet" href="/css/custom.min.5375ff72c758eba0aa9ab84af82d5653edc88e843e564abd3694542b9c790eea.css" integrity="sha256-U3X/csdY66CqmrhK&#43;C1WU&#43;3IjoQ&#43;Vkq9NpRUK5x5Duo=" crossorigin="anonymous">
       <link rel="stylesheet" href="/css/root.min.0e732b812b9751962e01a7c4798a1211cd5f8ac8abec7f99793fe306989e459f.css" integrity="sha256-DnMrgSuXUZYuAafEeYoSEc1fisir7H&#43;ZeT/jBpieRZ8=" crossorigin="anonymous">
       <link rel="stylesheet" href="/css/bundle.min.d95a325399a05b50fe47dcf35b8229b8a2a014fcee5435cfb28204c6ac335fc5.css" integrity="sha256-2VoyU5mgW1D&#43;R9zzW4IpuKKgFPzuVDXPsoIExqwzX8U=" crossorigin="anonymous">
 
@@ -113,7 +113,48 @@
 <p>我的人设已经很明确了：在爷爷姑姑这边当恨国反贼，在收入可观的政府人员家庭面前扬言毕生不考公考编半步；在姥姥舅舅那边当拿了个高学历就不知天高地厚的极端女权，自打刚上大学时舅在饭桌上贬低姥大家唯一一位杰出科学家姨以后，我就每次见面都呛舅装傻充愣不陪笑。有时是真不想演这么有敌意的人说这么夹枪带棒的话，我在校内在网上都是一个温良的小女孩，做到这个地步是你们逼我的。</p>
 <p>爸爸妈妈，你们各自跟爸爸妈妈怎么过日子我是劝也没用了你们自己受着吧，但是我的大宅门教条生活过得这么久了，生活费能不能也提高到大宅门的标准补偿一下我的精神损失啊？现在的鸟食罐容量与真正的鸟食量无异啊。</p>
 <p>总之是在决定钱之前，我还是立志耗用余生挪移本性，尽力让自己不做土皇帝，也尽力让自己不责怪自身错误于他人。</p>
-</section></main>
+</section>
+
+  <link rel="stylesheet" href="https://unpkg.com/@waline/client@v3/dist/waline.css" />
+  
+  <style>
+     
+    #waline { margin-top: 3rem; }
+    
+     
+    .wl-meta > span { display: none !important; }
+    
+     
+    .wl-badge { display: none !important; }
+    
+     
+    .wl-panel { border-radius: 8px !important; }
+    
+     
+    .wl-like { margin-right: 1em; }
+  </style>
+
+  <div id="waline"></div>
+
+  <script type="module">
+    import { init } from 'https://unpkg.com/@waline/client@v3/dist/waline.js';
+
+    init({
+      el: '#waline',
+      serverURL: 'https:\/\/covawang-githubpages-waline.vercel.app\/',
+      lang: 'zh-CN',
+      pageview: true, 
+      search: false,  
+      
+      
+      meta: ['nick', 'mail'],
+      
+      
+      emoji: [
+        'https://unpkg.com/@waline/emojis@1.1.0/tw-emoji'
+      ],
+    });
+  </script></main>
         <footer id="main-footer"><div class="footer">
   <a href="#">Scroll to Top</a>
   <div class="footer-copyright">
