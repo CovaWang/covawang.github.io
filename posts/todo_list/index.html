@@ -22,7 +22,7 @@
   <meta name="twitter:description" content="关于网站项目 关于内容
 关于网站 中文文本的段落首行缩进及段间距 标题容器的边距过大 段间距过大 字体不好看 图床的确定 思考相册的陈列实现 使得正文引用图片的同时也可以分类查阅相册 如按作品/生活etc disqus/waline?（不是很想再碰数据库啊……）（也不是很喜欢简中工具） 增加浏览量（似乎有的接口是和评论系统结合在一起的） 首页显示每个帖子的大纲 帖子编辑历史 移动端的容器位置重构 搜索时能否定位并高亮关键词 去掉tag的日期 总体改善tag界面 修改404和搜索无结果的页面 侧边栏，给字数和阅读时长换样式 所在块的目录条目区分出样式 实现目录行滚动 关于内容 导航栏分类方式 存活报告 netflix待翻译文档 工作流优化 obsidian自动化部署 是否适用iCloud达到多端协同">
 
-      <link rel="stylesheet" href="/css/custom.min.5375ff72c758eba0aa9ab84af82d5653edc88e843e564abd3694542b9c790eea.css" integrity="sha256-U3X/csdY66CqmrhK&#43;C1WU&#43;3IjoQ&#43;Vkq9NpRUK5x5Duo=" crossorigin="anonymous">
+      <link rel="stylesheet" href="/css/custom.min.6101d2b68bcd4e991cf24c80aa2c0836f75d5389177ad3735f6b764a5878b7e5.css" integrity="sha256-YQHStovNTpkc8kyAqiwINvddU4kXetNzX2t2Slh4t&#43;U=" crossorigin="anonymous">
       <link rel="stylesheet" href="/css/root.min.0e732b812b9751962e01a7c4798a1211cd5f8ac8abec7f99793fe306989e459f.css" integrity="sha256-DnMrgSuXUZYuAafEeYoSEc1fisir7H&#43;ZeT/jBpieRZ8=" crossorigin="anonymous">
       <link rel="stylesheet" href="/css/bundle.min.d95a325399a05b50fe47dcf35b8229b8a2a014fcee5435cfb28204c6ac335fc5.css" integrity="sha256-2VoyU5mgW1D&#43;R9zzW4IpuKKgFPzuVDXPsoIExqwzX8U=" crossorigin="anonymous">
 
@@ -124,27 +124,9 @@
 </ul>
 </section>
 
-  <link rel="stylesheet" href="https://unpkg.com/@waline/client@v3/dist/waline.css" />
-  
-  <style>
-     
-    #waline { margin-top: 3rem; }
-    
-     
-    .wl-meta > span { display: none !important; }
-    
-     
-    .wl-badge { display: none !important; }
-    
-     
-    .wl-panel { border-radius: 8px !important; }
-    
-     
-    .wl-like { margin-right: 1em; }
-  </style>
-
   <div id="waline"></div>
 
+  <link rel="stylesheet" href="https://unpkg.com/@waline/client@v3/dist/waline.css" />
   <script type="module">
     import { init } from 'https://unpkg.com/@waline/client@v3/dist/waline.js';
 
@@ -156,12 +138,16 @@
       search: false,  
       
       
+      reaction: [
+        '👍', '👎', '😄', '🎉', '😕', '❤️', '🚀', '👀'
+      ],
+      
       meta: ['nick', 'mail'],
       
       
-      emoji: [
-        'https://unpkg.com/@waline/emojis@1.1.0/tw-emoji'
-      ],
+      
+      
+      
     });
   </script></main>
         <footer id="main-footer"><div class="footer">

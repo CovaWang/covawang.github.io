@@ -1,0 +1,296 @@
+:root {
+  /*
+    我们将 "FangSong" (仿宋) 添加到字体列表的最前面。
+    浏览器在渲染中文时会优先使用它，
+    而在渲染英文时，由于 仿宋 字体不包含英文字符，
+    浏览器会自动回退 (fallback) 到 "Bricolage Grotesque"。
+  */
+  --font-family-main: "FangSong", "Bricolage Grotesque", sans-serif;
+  --font-family-content: "FangSong", "Bricolage Grotesque", serif;
+  --font-family-summary: "FangSong", "Bricolage Grotesque", serif;
+}
+
+/* 
+  消除导航栏分割线 (border) 和下方的空白 (margin),
+  并使下方的问候模块 (greetings) 与之紧邻。
+*/
+header#main-header {
+  margin-bottom: 0;
+  border-bottom: none;
+}
+
+/* 
+  - 实现 "头像居左, 文本居右" 的布局。
+  - 将这个组合模块作为一个整体水平居中。
+  - 增加了 padding-top 来替代已移除的 header margin, 作为缓冲。
+*/
+.custom-greetings-container {
+  display: flex;
+  flex-direction: row; /* 子元素水平排列 */
+  align-items: center;  /* 子元素垂直居中 */
+  justify-content: flex-start; /* (可选) 如果容器宽度大于内容, 则水平居中 */
+  width: fit-content;   /* 容器宽度适应内容 */
+  /* margin: 0 auto;       /* 关键: 使 "fit-content" 宽度的容器本身水平居中 */
+  margin: 0;
+  padding-top: 0;    /* 与上方导航栏的间距 */
+  padding-bottom: 4rem; /* 与下方 "Recent Posts" 的间距 */
+}
+
+/* 头像 (左侧) */
+.custom-greetings-avatar {
+  flex-shrink: 0; /* 防止头像被压缩 */
+  margin-right: 3rem; /* 头像与文本之间的间距 */
+}
+
+/* 文本模块 (右侧) */
+.custom-greetings-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* 文本块内的内容左对齐 */
+  text-align: left;
+}
+
+/* 覆盖 h1 (greeting) 的默认边距 */
+.custom-greetings-text h1.margin-sm {
+  margin: 0 0 0.25rem 0;
+}
+
+/* 覆盖副标题 (text) 的默认边距 */
+.custom-greetings-text .dim p {
+  margin: 0;
+  padding: 0;
+}
+
+/*  "Recent Posts" 左对齐
+  通过覆盖主题模板中的 "margin: 0 auto;" 内联样式来实现。
+*/
+main#main-content > div[style*="margin:0 auto"] {
+  margin: 0 !important; /* 使用 !important 确保内联样式被覆盖 */
+  width: 90% !important; /* 将宽度调整为100%，以填充主窗格 */
+}
+
+/* <p>中段落首行缩进 */
+section.page-section p {
+  text-indent: 2em; /* '2em' 2个中文字符 */
+}
+
+
+/* 正文行间距和段间距 */
+/* 全局行间距 (Line Height) */
+section.page-section {
+  line-height: 1.8; /* 默认 1.5 */
+}
+/* 段间距 */
+section.page-section p {
+  margin-bottom: 0.2rem; /* 增加段落底部的外边距 */
+  
+  /* 由于覆盖上面的 "text-indent" 规则，重新声明它。 */
+  text-indent: 1.5em;
+}
+
+/*
+ 'SNL' 图片样式 
+*/
+
+/* 选择器找到文章内容 (main#main-content) 中
+  所有 'src' 属性包含 文件夹路径 字符串的图片 (img)
+*/
+main#main-content img[src*="/images/SNL-related/"] {
+  max-width: 60%; /* 图片宽度占容器百分比。*/
+  display: block; margin: 0 auto; /* 居中 */
+  /* 间距  */
+  padding: 5px;
+  /* background-color: #fff;  */
+  /* 主题默认有 0.5rem 的圆角 重置 */
+  border-radius: 0.1;
+
+  /* 确保 padding 和 border 被计算在 max-width 之内 */
+  box-sizing: border-box;
+}
+
+/* =========================================
+   Waline 深度美化 (圆润 + 低饱和适配)
+   ========================================= */
+
+/* 1. 全局圆角设置：让评论框变圆润 */
+:root {
+  /* 定义一个较大的圆角变量 */
+  --waline-border-radius: 12px !important; 
+}
+
+/* 覆盖 Waline 默认的尖角 */
+.wl-panel {
+  border-radius: var(--waline-border-radius) !important;
+  border: none !important; /* 去掉默认边框，用背景色区分 */
+}
+.wl-btn {
+  border-radius: 20px !important; /* 按钮更圆润一点 */
+}
+
+/* 2. 浅色模式配色 (Light Mode) */
+/* 这里的颜色基于您主题的 #f0efea (暖米色) 进行调整 */
+html[color-scheme='light'] {
+  /* 背景色：使用 #e5e4df (比主题背景略深一点点，且饱和度更低，偏灰)
+     或者是纯白 #ffffff (看个人喜好，这里按您的要求调低了饱和度)
+  */
+  --waline-bgcolor: #e8e6e1; 
+  --waline-bgcolor-light: #f5f4f0; /* 输入框内部颜色 */
+  
+  /* 字体颜色跟随主题 */
+  --waline-color: var(--body-text-color);
+  --waline-theme-color: var(--primary-color); /* 按钮颜色跟随主题红 */
+}
+
+/* 3. 深色模式配色 (Dark Mode) */
+/* 这里的颜色基于您主题的 #222 (深灰) 进行调整 */
+html[color-scheme='dark'] {
+  /* 背景色：比 #222 稍微亮一点的深灰，增加层次感 
+  */
+  --waline-bgcolor: #2a2a2a;
+  --waline-bgcolor-light: #333333; /* 输入框内部颜色 */
+  
+  /* 字体颜色跟随主题 */
+  --waline-color: #ccc;
+  --waline-theme-color: var(--primary-color);
+}
+
+/* 4. 细节微调：隐藏不需要的元数据 (之前提过的) */
+.wl-meta > span { display: none !important; } /* 隐藏设备信息 */
+.wl-power { display: none !important; } /* 隐藏 "Powered by..." */
+
+/* 修正管理员/博主徽章的位置 (改到右下角) */
+.wl-card .wl-user .wl-badge {
+  position: absolute;
+  top: auto !important;      /* 1. 取消顶部定位 */
+  bottom: -2px !important;   /* 2. 设定到底部的距离 (可微调) */
+  right: -2px !important;    /* 3. 设定到右侧的距离 */
+  
+  display: block !important;
+  transform: scale(0.7);     /* 稍微缩小一点，太大会挡住头像 */
+  z-index: 10;
+  border-radius: 4px !important; /* 徽章圆角 */
+}
+
+/* --- 缩小操作按钮 (点赞/回复) --- */
+.wl-card .wl-meta .wl-action {
+  font-size: 12px !important;    /* 图标变小 */
+  margin-right: 8px !important;  /* 按钮间距变紧凑 (原为 12px) */
+  height: auto !important;       /* 防止高度被撑大 */
+  padding: 2px 4px !important;   /* 减小按钮内部留白 */
+}
+
+/* 如果觉得 svg 图标还是大，可以强制约束 svg */
+.wl-card .wl-meta .wl-action svg {
+  width: 14px !important;
+  height: 14px !important;
+}
+
+/* =========================================
+   Waline Reaction 仿 Giscus 风格 (终极修正)
+   ========================================= */
+
+/* 1. 隐藏自带标题 */
+.wl-reaction-title { display: none !important; }
+
+/* 2. 容器布局：左对齐，胶囊间距 */
+.wl-reaction {
+  display: flex !important;
+  gap: 12px !important;
+  justify-content: flex-start !important;
+  margin: 2rem 0 !important;
+  overflow-x: auto;
+  padding: 4px !important; /* 防止边框被切 */
+}
+
+/* 3. 胶囊按钮本体 */
+.wl-reaction-item {
+  display: flex !important;
+  flex-direction: row !important; /* 强制横排 */
+  align-items: center !important;
+  justify-content: center !important;
+  
+  /* Giscus 风格 */
+  border: 1px solid var(--dim-color) !important;
+  border-radius: 30px !important; /* 圆润胶囊 */
+  padding: 4px 12px !important;
+  height: 34px !important;
+  min-width: 52px !important;
+  margin: 0 !important;
+  
+  background: transparent !important;
+  transition: all 0.2s ease;
+}
+
+/* 悬停和选中状态 */
+.wl-reaction-item:hover,
+.wl-reaction-item.active {
+  border-color: var(--primary-color) !important;
+  background-color: color-mix(in srgb, var(--primary-color), transparent 90%) !important;
+  cursor: pointer;
+}
+
+/* 4. Emoji 字符样式 (关键：强制不显示图片) */
+.wl-reaction-img {
+  display: inline-block !important;
+  width: auto !important;
+  height: auto !important;
+  font-size: 18px !important; /* Emoji 大小 */
+  margin: 0 6px 0 0 !important;
+  vertical-align: middle !important;
+  line-height: 1 !important;
+}
+/* 防止 Waline 抽风加载出 img 标签 */
+.wl-reaction-img img { display: none !important; } 
+
+/* 5. 数字样式：去掉红圈，变成普通数字 */
+.wl-reaction-text {
+  position: static !important; /* 归位 */
+  display: inline-block !important;
+  background: transparent !important; /* 去红底 */
+  color: var(--body-text-color) !important;
+  
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  padding: 0 !important;
+  min-width: auto !important;
+  top: auto !important;
+  right: auto !important;
+}
+
+/* =========================================
+   Waline 评论区样式修复
+   ========================================= */
+
+/* 1. 修复 Emoji 和图片导致行距错乱的问题
+   主题默认对 main 下的 img 设置了 margin: 1rem 0，这会导致
+   行内表情包把文字行高撑得非常大。这里强制重置。
+*/
+#waline .wl-content img,
+#waline .wl-emoji {
+  display: inline-block !important;
+  margin: 0 2px !important;       /* 仅保留微小的左右间距 */
+  vertical-align: middle !important; /* 垂直居中对齐文字 */
+  border-radius: 0 !important;    /* 去除圆角 (针对 Emoji) */
+  box-shadow: none !important;
+  width: auto !important;
+  max-width: 100% !important;
+}
+
+/* 2. 特别针对 Emoji (贴纸/表情) 限制大小
+   防止表情包过大，强制限制为略大于文字高度
+*/
+#waline .wl-content .wl-emoji {
+  height: 1.25em !important;      /* 相对字体大小设定高度 */
+}
+
+/* 3. (可选) 如果评论里有用户上传的大图（截图等），
+   我们希望它还是保持块级显示，不要和文字挤在一起
+   注意：Waline 的图片通常没有特殊类名，这里通过排除法尝试优化
+   (如果发现大图也变小了，可以删除这段)
+*/
+#waline .wl-content img:not(.wl-emoji) {
+  display: block !important;
+  margin: 0.5rem 0 !important;    /* 给大图适当的上下间距 */
+  border-radius: 8px !important;  /* 给大图加回圆角 */
+  height: auto !important;        /* 高度自适应 */
+}
