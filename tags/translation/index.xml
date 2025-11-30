@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Translation on CovaWang BLOG</title>
-    <link>https://covawang.github.io/tags/translation/</link>
+    <link>http://localhost:1313/tags/translation/</link>
     <description>Recent content in Translation on CovaWang BLOG</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
     <lastBuildDate>Sat, 01 Nov 2025 13:48:46 +0800</lastBuildDate>
-    <atom:link href="https://covawang.github.io/tags/translation/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/translation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>NETFLIX 定时文本风格指南：通用要求</title>
-      <link>https://covawang.github.io/posts/netflix-%E5%AE%9A%E6%97%B6%E6%96%87%E6%9C%AC%E9%A3%8E%E6%A0%BC%E6%8C%87%E5%8D%97%E9%80%9A%E7%94%A8%E8%A6%81%E6%B1%82/</link>
+      <link>http://localhost:1313/posts/netflix-%E5%AE%9A%E6%97%B6%E6%96%87%E6%9C%AC%E9%A3%8E%E6%A0%BC%E6%8C%87%E5%8D%97%E9%80%9A%E7%94%A8%E8%A6%81%E6%B1%82/</link>
       <pubDate>Sat, 01 Nov 2025 13:48:46 +0800</pubDate>
-      <guid>https://covawang.github.io/posts/netflix-%E5%AE%9A%E6%97%B6%E6%96%87%E6%9C%AC%E9%A3%8E%E6%A0%BC%E6%8C%87%E5%8D%97%E9%80%9A%E7%94%A8%E8%A6%81%E6%B1%82/</guid>
+      <guid>http://localhost:1313/posts/netflix-%E5%AE%9A%E6%97%B6%E6%96%87%E6%9C%AC%E9%A3%8E%E6%A0%BC%E6%8C%87%E5%8D%97%E9%80%9A%E7%94%A8%E8%A6%81%E6%B1%82/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://partnerhelp.netflixstudios.com/hc/en-us/articles/215758617-Timed-Text-Style-Guide-General-Requirements&#34;&gt;原文链接：Timed Text Style Guide: General Requirements&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;任何为 Netflix 制作的字幕，不论是官方的还是非官方的，都应当遵循《 Netflix 定时文本风格指南》。本篇文章列出了若干通用要求。也应当遵守特定语言的具体的时间及文件格式指南。&lt;/p&gt;</description>
     </item>
   </channel>

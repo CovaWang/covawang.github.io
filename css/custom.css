@@ -1,22 +1,44 @@
-:root {
-  /*
+/* 引入 Google Fonts: Noto Serif SC (思源宋体) */
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;500;700&display=swap'); */
+
+/* :root {
     我们将 "FangSong" (仿宋) 添加到字体列表的最前面。
     浏览器在渲染中文时会优先使用它，
     而在渲染英文时，由于 仿宋 字体不包含英文字符，
     浏览器会自动回退 (fallback) 到 "Bricolage Grotesque"。
-  */
-  --font-family-main: "FangSong", "Bricolage Grotesque", sans-serif;
+  
+  --font-family-main:  "FangSong", "Bricolage Grotesque", sans-serif;
   --font-family-content: "FangSong", "Bricolage Grotesque", serif;
   --font-family-summary: "FangSong", "Bricolage Grotesque", serif;
+} */
+:root {
+  /* 定义 Emoji 字体栈，确保全平台显示最新表情 */
+  --emoji-font-stack: "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", "Android Emoji", sans-serif;
+  
+  /* 更新主字体变量：优先使用 思源宋体，英文回退到 Bricolage，最后是系统衬线和 Emoji */
+  --font-family-main: "FangSong", "Bricolage Grotesque", "Songti SC", "SimSun", serif, var(--emoji-font-stack);
+  --font-family-content: "FangSong", "Bricolage Grotesque", "Songti SC", "SimSun", serif, var(--emoji-font-stack);
+  --font-family-summary: "FangSong", "Bricolage Grotesque", serif, var(--emoji-font-stack);
 }
 
 /* 
-  消除导航栏分割线 (border) 和下方的空白 (margin),
-  并使下方的问候模块 (greetings) 与之紧邻。
-*/
+   4. 缩短导航栏与正文的距离
+    */
+/* 减小容器顶部的内边距 */
+div#container {
+  padding-top: 0.5rem !important; /* 原为 1rem */
+}
+
+/* 确保 Header 没有多余的下边距 */
 header#main-header {
-  margin-bottom: 0;
-  border-bottom: none;
+  margin-bottom: 1rem !important; /* 给一点点距离以免太拥挤，原主题可能很大 */
+  padding-bottom: 0.5rem !important;
+}
+
+/* 减小正文区域顶部的内边距 */
+div#main-pane, 
+aside#side-pane {
+  padding-top: 0 !important; /* 原为 1rem，改为 0 */
 }
 
 /* 
@@ -80,12 +102,11 @@ section.page-section p {
 section.page-section {
   line-height: 1.8; /* 默认 1.5 */
 }
-/* 段间距 */
+
 section.page-section p {
-  margin-bottom: 0.2rem; /* 增加段落底部的外边距 */
-  
-  /* 由于覆盖上面的 "text-indent" 规则，重新声明它。 */
-  text-indent: 1.5em;
+  margin-bottom: 0 !important;   /* 移除段落间距，实现紧凑效果 */
+  padding-bottom: 1px;           /* 稍微保留一点呼吸感（可设为0） */
+  text-indent: 2em;              /* 保持首行缩进 2 个字符 */
 }
 
 /*
@@ -106,6 +127,36 @@ main#main-content img[src*="/images/SNL-related/"] {
 
   /* 确保 padding 和 border 被计算在 max-width 之内 */
   box-sizing: border-box;
+}
+
+/*
+ 'Journal' 图片样式 
+*/
+
+/* 选择器找到文章内容 (main#main-content) 中
+  所有 'src' 属性包含 文件夹路径 字符串的图片 (img)
+*/
+main#main-content img[src*="/images/Journal/"] {
+  width: 80%; /* 图片宽度占容器百分比。*/
+  display: block; margin: 0 auto; /* 居中 */
+  /* 间距  */
+  padding: 3px;
+  /* background-color: #fff;  */
+  /* 主题默认有 0.5rem 的圆角 重置 */
+  border-radius: 0.1;
+
+  /* 确保 padding 和 border 被计算在 max-width 之内 */
+  box-sizing: border-box;
+}
+
+
+/* 
+   Waline 评论区垂直距离增加
+*/
+#waline {
+  margin-top: 4rem !important; /* 原为 3rem，增加一倍距离 */
+  padding-top: 0.5rem;           /* 额外增加一点内边距作为缓冲 */
+  border-top: 1px dashed var(--dim-color); /* (可选) 加一条虚线分割，若不需要可删除 */
 }
 
 /* =========================================
