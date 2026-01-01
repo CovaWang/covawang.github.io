@@ -137,7 +137,7 @@ main#main-content img[src*="/images/SNL-related/"] {
   所有 'src' 属性包含 文件夹路径 字符串的图片 (img)
 */
 main#main-content img[src*="/images/Journal/"] {
-  width: 80%; /* 图片宽度占容器百分比。*/
+  width: 75%; /* 图片宽度占容器百分比。*/
   display: block; margin: 0 auto; /* 居中 */
   /* 间距  */
   padding: 3px;
