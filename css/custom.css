@@ -93,6 +93,102 @@ main#main-content > div[style*="margin:0 auto"] {
   width: 90% !important; /* 将宽度调整为100%，以填充主窗格 */
 }
 
+/* =========================================
+   目录 (TOC) 局部滚动优化
+   ========================================= */
+
+/* 1. 重置侧边栏整体样式 (防止之前加的代码冲突) */
+aside#side-pane {
+  overflow: visible !important; /* 整体不产生滚动条 */
+  max-height: none !important;  /* 移除整体高度限制 */
+  /* 确保它能通过 Sticky 正常吸附在屏幕上 */
+  position: sticky; 
+  top: 0.1rem; 
+}
+/* =========================================
+   侧边栏间距与分割线修复 (最终微调)
+   ========================================= */
+
+/* 1. 极度压缩标题与下方内容的间距 */
+aside#side-pane h3 {
+  /* 标题下方只留极小的缝隙 */
+  margin-bottom: 0.2rem !important; 
+}
+
+/* 强制移除所有侧边栏列表 (包括 TOC 和 Related) 的顶部默认间距 */
+aside#side-pane ul,
+#TableOfContents > ul,
+#TableOfContents > nav > ul {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
+
+/* 2. 给 Related (相关推荐) 上方添加分割线 */
+/* 逻辑：找到紧跟在 TOC 容器后面的那个 h3 标题 (即 Related) */
+#TableOfContents + h3 {
+  /* 添加与字数栏下方同款的分割线 */
+  border-top: 1px var(--dim-color) solid;
+  
+  /* 线条距离上方 TOC 的距离 (呼吸感) */
+  margin-top: 1rem !important;
+  
+  /* 线条距离下方 "Related" 文字的距离 */
+  padding-top: 0.8rem !important;
+  
+  /* 确保宽度占满 */
+  width: 100%;
+}
+/* 2. 核心：只让目录 (#TableOfContents) 区域滚动 */
+#TableOfContents {
+  /* 限制最大高度：视口高度的 50% 
+     这样既能展示长目录，又给上方的详情和下方的 Related 留出空间 */
+  max-height: 40vh; 
+  
+  /* 开启垂直滚动 */
+  overflow-y: auto;
+  
+  /* 增加右侧内边距，防止滚动条遮挡文字 */
+  padding-right: 2px; 
+  
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+  /* (可选) 给底部加点间距，与 Related 分开 */
+  /* margin-bottom: 0.1rem; */
+}
+
+/* --- 美化目录的滚动条 (风格与主题一致) --- */
+
+/* 滚动条整体宽度 */
+#TableOfContents::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* 滚动条轨道 */
+#TableOfContents::-webkit-scrollbar-track {
+  background: transparent; 
+}
+
+/* 滚动条滑块 */
+#TableOfContents::-webkit-scrollbar-thumb {
+  background-color: var(--dim-color); /* 浅灰色 */
+  border-radius: 4px;
+}
+
+/* 滑块悬停状态 */
+#TableOfContents::-webkit-scrollbar-thumb:hover {
+  background-color: var(--primary-color); /* 悬停变红 */
+}
+
+/* =========================================
+   目录内部微调：消除顶部空白
+   ========================================= */
+
+/* 针对 Hugo 生成的目录列表结构，移除默认的顶部边距 */
+#TableOfContents > ul,
+#TableOfContents > nav > ul {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+}
 
 /* 调整正文各级标题 */
 section.page-section h1,
