@@ -2,21 +2,6 @@
   // <stdin>
   (function() {
     "use strict";
-    window.addEventListener("DOMContentLoaded", () => {
-      let menu = document.getElementById("nav-dropdown-menu");
-      const menu_btn = document.getElementById("nav-dropdown-button");
-      menu_btn.addEventListener("click", (e) => {
-        e.preventDefault();
-        menu.classList.toggle("hidden");
-        window.addEventListener("click", () => {
-        });
-        window.addEventListener("scroll", () => {
-        });
-      });
-    });
-  })();
-  (function() {
-    "use strict";
     const getCachedTheme = () => {
       const cachedTheme = localStorage.getItem("color-scheme");
       const preferDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
@@ -30,6 +15,33 @@
         const state = getCachedTheme() === "light" ? "dark" : "light";
         document.documentElement.setAttribute("color-scheme", state);
         localStorage.setItem("color-scheme", state);
+      });
+    });
+  })();
+  window.addEventListener("DOMContentLoaded", () => {
+    try {
+      document.querySelectorAll('a[href^="http"]').forEach((link) => {
+        if (link.hostname !== window.location.hostname) {
+          link.setAttribute("target", "_blank");
+          link.setAttribute("rel", "noopener noreferrer");
+        }
+      });
+    } catch (e) {
+      console.error("Auto-target-blank script failed:", e);
+    }
+  });
+  (function() {
+    "use strict";
+    window.addEventListener("DOMContentLoaded", () => {
+      let menu = document.getElementById("nav-dropdown-menu");
+      const menu_btn = document.getElementById("nav-dropdown-button");
+      menu_btn.addEventListener("click", (e) => {
+        e.preventDefault();
+        menu.classList.toggle("hidden");
+        window.addEventListener("click", () => {
+        });
+        window.addEventListener("scroll", () => {
+        });
       });
     });
   })();
