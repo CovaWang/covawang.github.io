@@ -1,1 +1,0 @@
-(()=>{(function(){"use strict";window.addEventListener("DOMContentLoaded",()=>{let n=document.querySelector("section.page-section");if(!n)return;n.querySelectorAll("p").forEach(e=>{e.querySelector("br")&&(e.innerHTML=e.innerHTML.replace(/<br\s*\/?>/gi,'<br><span style="display:inline-block; width: 2em;"></span>'))})})})();})();

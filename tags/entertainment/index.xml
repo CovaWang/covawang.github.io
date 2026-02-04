@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Entertainment on CovaWang BLOG</title>
-    <link>http://localhost:1313/tags/entertainment/</link>
+    <link>https://covawang.github.io/tags/entertainment/</link>
     <description>Recent content in Entertainment on CovaWang BLOG</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
     <lastBuildDate>Thu, 01 Jan 2026 20:00:16 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/entertainment/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://covawang.github.io/tags/entertainment/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SNL-related recording</title>
-      <link>http://localhost:1313/posts/snl-related-recording/</link>
+      <link>https://covawang.github.io/posts/snl-related-recording/</link>
       <pubDate>Thu, 01 Jan 2026 20:00:16 +0800</pubDate>
-      <guid>http://localhost:1313/posts/snl-related-recording/</guid>
-      <description>&lt;p&gt;只是把新几期看了的文字贴过来了 会补档之前发过的内容文字及图片并每周更新的……&lt;/p&gt;&#xA;&lt;h2 id=&#34;s51-christmas-break上半场结束了&#34;&gt;S51 Christmas break上半场结束了&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/SNL-related/IMG_0178.png&#34; alt=&#34;IMG_0178.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;benmarshall谢谢你挨个看了我igstory对你post的repo 但是没有那个&amp;quot;see translation&amp;quot;按钮的话看得懂配字吗你！（还好夸小品的帖子由于中文字符含量过高唤醒了翻译键&lt;/p&gt;</description>
+      <guid>https://covawang.github.io/posts/snl-related-recording/</guid>
+      <description>&lt;p&gt;只是把新几期看了的文字贴过来了 会补档之前发过的内容文字及图片并每周更新的……&lt;/p&gt;&#xA;&lt;h2 id=&#34;s51-christmas-break上半场结束了&#34;&gt;S51 Christmas break上半场结束了&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://covawang.github.io/images/SNL-related/IMG_0178.png&#34; alt=&#34;IMG_0178.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;benmarshall谢谢你挨个看了我igstory对你post的repo 但是没有那个&amp;quot;see translation&amp;quot;按钮的话看得懂配字吗你！（还好夸小品的帖子由于中文字符含量过高唤醒了翻译键&lt;/p&gt;</description>
     </item>
     <item>
       <title>NETFLIX 定时文本风格指南：通用要求</title>
-      <link>http://localhost:1313/posts/netflix-timed-text-style-guide-general-requirements/</link>
+      <link>https://covawang.github.io/posts/netflix-timed-text-style-guide-general-requirements/</link>
       <pubDate>Sat, 01 Nov 2025 13:48:46 +0800</pubDate>
-      <guid>http://localhost:1313/posts/netflix-timed-text-style-guide-general-requirements/</guid>
+      <guid>https://covawang.github.io/posts/netflix-timed-text-style-guide-general-requirements/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://partnerhelp.netflixstudios.com/hc/en-us/articles/215758617-Timed-Text-Style-Guide-General-Requirements&#34;&gt;原文链接：Timed Text Style Guide: General Requirements&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;任何为 Netflix 制作的字幕，不论是官方的还是非官方的，都应当遵循《 Netflix 定时文本风格指南》。本篇文章列出了若干通用要求。也应当遵守特定语言的具体的时间及文件格式指南。&lt;/p&gt;</description>
     </item>
     <item>
       <title>re:Sondheim</title>
-      <link>http://localhost:1313/posts/regarding-sondheim/</link>
+      <link>https://covawang.github.io/posts/regarding-sondheim/</link>
       <pubDate>Thu, 30 Oct 2025 00:17:23 +0800</pubDate>
-      <guid>http://localhost:1313/posts/regarding-sondheim/</guid>
+      <guid>https://covawang.github.io/posts/regarding-sondheim/</guid>
       <description>&lt;p&gt;我这个人道德标准实在是不高，即使全然能理解桑剧被攻击的理由，也反对因他的戏以积极的动机刻画出了讨人厌的主角而否认其整个作品的水平的行径。他只是写了在他那时候都觉得对的东西，这些作品今日性转后其主旨并没有偏差。时代的局限性，这就是为什么现在的人已经写不过前人，但仍有写的必要。&lt;br&gt;&#xA;但与水平和历史无关的是，对人性和关系的观察从来是恒定的，不受时间的意志而转移的。&lt;/p&gt;</description>
     </item>
   </channel>
