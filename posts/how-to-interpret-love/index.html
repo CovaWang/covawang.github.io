@@ -128,31 +128,35 @@
 
   <div id="waline"></div>
 
-  
-  <link rel="stylesheet" href="/waline-forked/waline.css" />
-  <script type="module">
-    
-    import { init } from '/waline-forked/waline.js';
+<link
+  rel="stylesheet"
+  href="/waline-forked/waline.css?v=inline-stage1-2"
+/>
+
+<script type="module">
+  import { init } from '/waline-forked/waline.js?v=inline-stage1-3';
+
+  const walineElement = document.getElementById('waline');
+
+  if (!walineElement) {
+    console.error('Waline mount element #waline was not found.');
+  } else {
     init({
-      el: '#waline',
+      el: walineElement,
       serverURL: 'https:\/\/covawang-githubpages-waline.vercel.app\/',
       lang: 'zh-CN',
-      pageview: true, 
-      search: false,  
-      
-      
-      
-      
-      
-      
+      pageview: true,
+      search: false,
       meta: ['nick', 'mail'],
-      
-      
+
+      inlineCommentSelector: '.page-section',
+
       emoji: [
         'https://unpkg.com/@waline/emojis@1.1.0/tw-emoji'
       ],
     });
-  </script></main>
+  }
+</script></main>
         <footer id="main-footer"><div class="footer">
   <a href="#">Scroll to Top</a>
   <div class="footer-copyright">
@@ -164,7 +168,7 @@
       </div><aside id="side-pane" class="side-sticky"><div class="side-details">
     <span>1951 words</span>
     <span>5 - 6 minutes read</span></div><h3>Related</h3>
-    <ul><li><a href="/posts/ms-part-time-at-manner/">盖瑞录音笔</a></li><li><a href="/posts/journal-2608/">Aug., 2026: 手感是经验的别名</a></li><li><a href="/posts/journal-2607/">Jul., 2026: 上班了，但是没上班</a></li><li><a href="/posts/journal-2606/">Jun.,2026: 天津公主进京乞讨中</a></li><li><a href="/posts/journal-2605/">May,2026: 对poopoo和git pull给到一个“拉完了”</a></li></ul></aside></div>
+    <ul><li><a href="/posts/ms-part-time-at-manner/">盖瑞录音笔</a></li><li><a href="/posts/journal-2609/">Sep., 2026: 迷恋风味</a></li><li><a href="/posts/journal-2608/">Aug., 2026: 手感是经验的别名</a></li><li><a href="/posts/journal-2607/">Jul., 2026: 上班了，但是没上班</a></li><li><a href="/posts/journal-2606/">Jun.,2026: 天津公主进京乞讨中</a></li></ul></aside></div>
   </div>
 </body>
 </html>
